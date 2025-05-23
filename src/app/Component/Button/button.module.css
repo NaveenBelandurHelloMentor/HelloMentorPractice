@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.button_large{
+    width: 100%;
+    display: flex;
+    height: 38px;
+    padding: 0 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #b0b0b0;
+    background: #fff;
+    color: #3d3d3d;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0px;
+    letter-spacing: .36px;
+    cursor: pointer;
+   
+}
+
+.button_large:hover{
+    color: #fff;
+    background-color: #f5503e;
+}
+
+
+.button_small{
+    margin-top: 1rem;
+    display: flex;
+    width: 111px;
+    height: 38px;
+    padding: 0 var(--Spacing-card-tB-lR, 16px);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: var(--Curve-curve-md, 8px);
+    border: 1px solid var(--Black-300, #b0b0b0);
+    background: var(--Black-0, #fff);
+    color: var(--Black-900, #3d3d3d);
+    font-weight: 600;
+    line-height: 0px;
+    letter-spacing: .36px;
+      cursor: pointer;
+}
